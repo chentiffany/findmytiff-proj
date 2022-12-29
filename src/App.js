@@ -94,9 +94,9 @@ class App extends Component {
             {this.state.movies.map(movie => <DiaryEntry {...movie.fields}/> )}
             </div>
           </div>
-          <div class = "col"> <h5>[Coming Soon]</h5>
+          {/* <div class = "col"> <h5>[Coming Soon]</h5> */}
 
-          </div>
+          {/* </div> */}
           {/* <div class="col"><h5>[Forum]</h5>
           <form id = "forumForm" target = "_blank" action = "https://hooks.airtable.com/workflows/v1/genericWebhook/app4jSFTmhmw0uE68/wflibK7Lmnk8f0Unz/wtrm72xlqxHAHdRlP" method= "POST">
             name <input type="text" class = "form-control" id="name" name="name"/>
