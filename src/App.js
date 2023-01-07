@@ -57,8 +57,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header"> 
           <div class="wrapper">
-            <div class="row">
-              <div class="col">
+            <div class="row" id= "header">
+              <div class="col" id ="stick">
                 <div class="box1">
                   <h1>
                     <Clock /> [{zone}]
@@ -81,12 +81,15 @@ class App extends Component {
           </div>
         </p> */}
         <div class="row">
-          <div class="col"><h5>[Tiffany Chen (she/her)]</h5>
+          <div class="col" >
+            <div id ="stick">
+            <h5>[Tiffany Chen (she/her)]</h5>
             Just a kid documenting her study abroad.
             <div id = "info">
               <i><a href="https://www.instagram.com/copyrightiff/" target="_blank" id = "no-underline">@copyrightiff</a></i> <br></br>
               <i><a href = "mailto: c.tiffany@wustl.edu" id = "no-underline">c.tiffany@wustl.edu</a></i>
             </div>
+              </div>
           </div> 
           <div class="col"><h5>[Diary]</h5>
             <div class = "diary-content"></div>
@@ -96,7 +99,7 @@ class App extends Component {
           </div>
           {/* <div class = "col"> <h5>[Coming Soon]</h5> */}
 
-          {/* </div> */}
+          </div>
           {/* <div class="col"><h5>[Forum]</h5>
           <form id = "forumForm" target = "_blank" action = "https://hooks.airtable.com/workflows/v1/genericWebhook/app4jSFTmhmw0uE68/wflibK7Lmnk8f0Unz/wtrm72xlqxHAHdRlP" method= "POST">
             name <input type="text" class = "form-control" id="name" name="name"/>
@@ -105,7 +108,6 @@ class App extends Component {
           </form>
           </div>  */}
         </div>
-      </div>
     );
   }
 }
