@@ -52,7 +52,6 @@ class App extends Component {
     });
   }
   render(){
-    console.log (API_KEY);
     return (
       <div className="App">
         <header className="App-header"> 
