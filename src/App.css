@@ -39,11 +39,37 @@
 #pinky:hover {
   color: rgb(236,136,208);
 }
+input{
+  width: 150px;
+}
+textarea {
+  width: 350px;
+  height: 100px;
+}
+#pink{
+  font-size: smaller;
+}
+#pinks{
+  color: rgb(236,136,208);
+}
+
+#pinkbtn{
+  color: rgb(9,81,64);
+  border-color: rgb(9,81,64);
+  background-color: white;
+  border-radius: 2px;
+}
+
+#pinkbtn:hover {
+  background-color: rgb(236,136,208); /* Green */
+  color: white;
+}
 
 #thoughts{
   color: rgb(9,81,64);
   font-family: 'Italic';
   text-align: justify;
+  font-size: medium;
 }
 .box1 {
   display: block;
@@ -76,4 +102,8 @@
 }
 #header {
   height: 7.5vh;
+}
+.diary-content1{
+  height: 400px;
+  overflow: scroll;
 }
