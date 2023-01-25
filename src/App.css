@@ -107,3 +107,8 @@ textarea {
   height: 400px;
   overflow: scroll;
 }
+#footer{
+  bottom: 0;
+  position: absolute;
+  color: rgb(236,136,208);
+}

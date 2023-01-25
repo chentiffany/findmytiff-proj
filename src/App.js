@@ -61,7 +61,7 @@ class App extends Component {
               <div class="col" id ="stick">
                 <div class="box1">
                   <h1>
-                    <Clock /> [{zone}]
+                    <Clock/> [{zone}]
                   </h1>
                 </div>
               </div>
@@ -77,12 +77,15 @@ class App extends Component {
           <div class="col-3" >
             <div id ="stick">
             <h5>[Tiffany Chen (she/her)]</h5>
-            Just a kid documenting her study abroad.
+            Just a kid documenting her study abroad. 
             <div id = "info">
               <i><a href="https://www.instagram.com/copyrightiff/" target="_blank" id = "no-underline">@copyrightiff</a></i> <br></br>
               <i><a href = "mailto: c.tiffany@wustl.edu" id = "no-underline">c.tiffany@wustl.edu</a></i>
             </div>
-              </div>
+            </div>
+            <div id = "footer">
+              Website made with &#x2764;
+            </div>
           </div> 
           <div class="col-6"><h5>[Diary]</h5>
             <div class = "diary-content"></div>
