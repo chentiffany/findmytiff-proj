@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1dc5798f.css",
-    "main.js": "/static/js/main.268007c5.js",
+    "main.css": "/static/css/main.1533ee66.css",
+    "main.js": "/static/js/main.5ea55fa2.js",
     "static/media/TimesDotItalic.otf": "/static/media/TimesDotItalic.e23bc1a0eec9746777f8.otf",
     "static/media/TimesDotRom.otf": "/static/media/TimesDotRom.546eb5c590eac33eb0f5.otf",
     "static/media/TimesDotBol.otf": "/static/media/TimesDotBol.748134b7f09fa93debcc.otf",
     "index.html": "/index.html",
-    "main.1dc5798f.css.map": "/static/css/main.1dc5798f.css.map",
-    "main.268007c5.js.map": "/static/js/main.268007c5.js.map"
+    "main.1533ee66.css.map": "/static/css/main.1533ee66.css.map",
+    "main.5ea55fa2.js.map": "/static/js/main.5ea55fa2.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dc5798f.css",
-    "static/js/main.268007c5.js"
+    "static/css/main.1533ee66.css",
+    "static/js/main.5ea55fa2.js"
   ]
 }
