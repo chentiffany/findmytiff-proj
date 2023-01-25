@@ -83,9 +83,9 @@ class App extends Component {
               <i><a href = "mailto: c.tiffany@wustl.edu" id = "no-underline">c.tiffany@wustl.edu</a></i>
             </div>
             </div>
-            <div id = "footer">
+            {/* <div id = "footer">
               Website made with &#x2764;
-            </div>
+            </div> */}
           </div> 
           <div class="col-6"><h5>[Diary]</h5>
             <div class = "diary-content"></div>
